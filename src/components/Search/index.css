@@ -1,0 +1,9 @@
+.hover-button .hover-button--on {
+    display: none;
+}
+
+.hover-button:hover .hover-button--on {
+    display: block;
+    z-index: 999;
+    position: absolute;
+}
